@@ -13,7 +13,7 @@
   <body>
     <header>
       <form action="submit" class="color-chose">
-        <input type="color" class="color-input" />
+        <input type="color" class="color-input" id="color-input" />
         <select name="color-variant" id="color-variant" class="color-variant">
           <option value="monochrome">Monochrome</option>
           <option value="monochrome-dark">Monochrome-Dark</option>
@@ -24,7 +24,9 @@
           <option value="triad">Triad</option>
           <option value="quad">Quad</option>
         </select>
-        <button class="get-scheme-btn">Get Color Scheme</button>
+        <button class="get-scheme-btn" id="get-scheme-btn">
+          Get Color Scheme
+        </button>
       </form>
     </header>
     <main>
@@ -64,5 +66,6 @@
         </div>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
