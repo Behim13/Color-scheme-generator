@@ -99,7 +99,7 @@ main {
   background-color: #17253e;
   height: 80px;
   border-radius: 20px;
-  padding: 3px 3px 3px 0;
+  padding: 3px 3px 3px 3px;
   gap: 3px;
 }
 
@@ -118,4 +118,20 @@ main {
 
 .color-info p {
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+    max-width: 1000px;
+    height: 50vh;
+    /* border: 1px solid red; */
+    gap: 10px;
+  }
+
+  .color-section {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
 }
