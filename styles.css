@@ -120,6 +120,10 @@ main {
   margin-bottom: 5px;
 }
 
+i {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   main {
     flex-direction: row;
